@@ -1,0 +1,94 @@
+#Eventhead{
+    text-align: center;
+    /* font-weight: 300; */
+    font-family: Philosopher;
+font-size: 45px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0em;
+/* text-align: left; */
+color: #66BB6A;
+
+}
+
+.grid-item  {
+    
+align-content: center;
+display: flex;
+  justify-content: center;
+  align-items: center;
+margin-bottom: 100px;
+}
+
+#formar-card-head{
+  font-weight: 60;
+  /* font-size: 1rem; */
+  color: rgba(0, 0, 0, 0.85);
+
+}
+.greenspan{
+  font-size: 30px;
+  color: rgb(66, 219, 66);
+}
+
+.boldspan{
+  font-size: 29px;
+  color: black;
+  font-weight: bold;
+}
+.bracket{
+  font-size: 20px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.623);
+}
+.sponsers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.custom-design{
+  width: 300px;
+  height: 80px;
+  /* color: red; */
+  /* background-color: rgb(0, 255, 255); */
+}
+.sponsers video{
+  width: 500px;
+  
+  /* height:200px ; */
+}
+.siledss{
+
+  /* background-color: blue; */
+}
+.content{
+  /* background-color: blueviolet; */
+  width: 450px;
+}
+
+@media only screen and (max-width: 768px){
+  .sponsers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .grid-item img {
+    margin: 0 auto;
+    align-items: center;
+    width: 500px;
+
+  }
+  .video-sports{
+    /* width: 100px; */
+    margin-bottom: 10px;
+  }
+  .content{
+    margin-top: 30px;
+  }
+
+  
+}

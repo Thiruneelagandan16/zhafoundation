@@ -1,0 +1,91 @@
+.Contact{
+    width:100%;
+    height: 290px;
+    background-image: url(../../public/img/Cimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    /* margin: 50px 50px; */
+}
+.Contact input{
+
+}
+.Contact button{
+    width: 190px;
+    height: 53px;
+    border: none;
+    background-color: #66BB6A;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* padding: 37px 0px; */
+}
+.Contact h1{
+    text-align: center;
+    /* font-weight: 300; */
+    font-family: Philosopher;
+font-size: 45px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0em;
+/* text-align: left; */
+color: #FFFFFF;
+
+}
+.Contact input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 445.2px;
+    height: 50px;
+    border: none;
+    margin-left: 450px;
+}
+::placeholder{
+color:#797979;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.Contact .social{
+    margin-top: 20px;
+    margin-left: 630px;   
+}
+.Contact .social .socialicon:hover{
+    transform: translateY(3px);
+    /* margin-left: 20px; */
+}
+
+@media only screen and (max-width: 768px){
+    .Contact{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 100px;
+    }
+    .Contact .social{
+       
+        margin: 0 auto;
+        padding-top: 30px;
+
+    }
+    .Contact button{
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        width: 100px;
+        
+    }
+    .Contact input{
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        
+    }
+}
+
